@@ -6,7 +6,7 @@
     Given I log into the leave management system as a manager
 
 @TestSetManager
-  Scenario: Submit annual leave request: Single day
+  Scenario: 1_Submit annual leave request: Single day
     When Expand the "Leave" dropdown and navigate to "My leaves"
     And Get the initial 'annual' leave count
     And Click Request New Leave and open the leave request form  
@@ -20,7 +20,7 @@
     And Verify 'annual' leave balance is increased by '1'
 
 @TestSetManager
-  Scenario: Submit annual leave request: Multiple days
+  Scenario: 2_Submit annual leave request: Multiple days
     When Expand the "Leave" dropdown and navigate to "My leaves"
     And Get the initial 'annual' leave count
     And Click Request New Leave and open the leave request form  
@@ -34,7 +34,7 @@
     And Verify 'annual' leave balance is increased by '2'
 
 @TestSetManager
-  Scenario: Submit annual leave request: Overlapping
+  Scenario: 3_Submit annual leave request: Overlapping
     When Expand the "Leave" dropdown and navigate to "My leaves"
     And Get the initial 'annual' leave count
     And Click Request New Leave and open the leave request form  

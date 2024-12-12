@@ -83,13 +83,15 @@ namespace TestAutomationLeaveMgt.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Submit annual leave request: Single day")]
-        public void SubmitAnnualLeaveRequestSingleDay()
+        [NUnit.Framework.DescriptionAttribute("1_Submit annual leave request: Single day")]
+        [NUnit.Framework.CategoryAttribute("TestSetManager")]
+        public void _1_SubmitAnnualLeaveRequestSingleDay()
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = new string[] {
+                    "TestSetManager"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Submit annual leave request: Single day", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 8
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("1_Submit annual leave request: Single day", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 9
   this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -102,37 +104,37 @@ namespace TestAutomationLeaveMgt.Features
 #line 5
   this.FeatureBackground();
 #line hidden
-#line 9
+#line 10
     testRunner.When("Expand the \"Leave\" dropdown and navigate to \"My leaves\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 10
+#line 11
     testRunner.And("Get the initial \'annual\' leave count", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 11
+#line 12
     testRunner.And("Click Request New Leave and open the leave request form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 12
+#line 13
     testRunner.When("Select leave type: Annual leave", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 13
+#line 14
     testRunner.And("Pick start date as Today+3 and end date as Today+3", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 14
+#line 15
     testRunner.And("Enter note: Test leave Single Day", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 15
+#line 16
     testRunner.And("Click button: Request leave", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 16
+#line 17
     testRunner.And("Click pop up confirm", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 17
+#line 18
     testRunner.Then("Snack bar should displayed with message \'Request has been auto approved!\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 18
+#line 19
     testRunner.And("Return to the \"My leaves\" page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 19
+#line 20
     testRunner.And("Verify \'annual\' leave balance is increased by \'1\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
@@ -140,13 +142,15 @@ namespace TestAutomationLeaveMgt.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Submit annual leave request: Multiple days")]
-        public void SubmitAnnualLeaveRequestMultipleDays()
+        [NUnit.Framework.DescriptionAttribute("2_Submit annual leave request: Multiple days")]
+        [NUnit.Framework.CategoryAttribute("TestSetManager")]
+        public void _2_SubmitAnnualLeaveRequestMultipleDays()
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = new string[] {
+                    "TestSetManager"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Submit annual leave request: Multiple days", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 21
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("2_Submit annual leave request: Multiple days", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 23
   this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -159,37 +163,37 @@ namespace TestAutomationLeaveMgt.Features
 #line 5
   this.FeatureBackground();
 #line hidden
-#line 22
+#line 24
     testRunner.When("Expand the \"Leave\" dropdown and navigate to \"My leaves\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 23
+#line 25
     testRunner.And("Get the initial \'annual\' leave count", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 24
+#line 26
     testRunner.And("Click Request New Leave and open the leave request form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 25
+#line 27
     testRunner.When("Select leave type: Annual leave", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 26
+#line 28
     testRunner.And("Pick start date as Today+5 and end date as Today+6", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 27
+#line 29
     testRunner.And("Enter note: Test leave Multiple Days", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 28
+#line 30
     testRunner.And("Click button: Request leave", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 29
+#line 31
     testRunner.And("Click pop up confirm", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 30
+#line 32
     testRunner.Then("Snack bar should displayed with message \'Request has been auto approved!\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 31
+#line 33
     testRunner.And("Return to the \"My leaves\" page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 32
+#line 34
     testRunner.And("Verify \'annual\' leave balance is increased by \'2\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
@@ -197,13 +201,15 @@ namespace TestAutomationLeaveMgt.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Submit annual leave request: Overlapping")]
-        public void SubmitAnnualLeaveRequestOverlapping()
+        [NUnit.Framework.DescriptionAttribute("3_Submit annual leave request: Overlapping")]
+        [NUnit.Framework.CategoryAttribute("TestSetManager")]
+        public void _3_SubmitAnnualLeaveRequestOverlapping()
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = new string[] {
+                    "TestSetManager"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Submit annual leave request: Overlapping", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 34
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("3_Submit annual leave request: Overlapping", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 37
   this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -216,22 +222,22 @@ namespace TestAutomationLeaveMgt.Features
 #line 5
   this.FeatureBackground();
 #line hidden
-#line 35
+#line 38
     testRunner.When("Expand the \"Leave\" dropdown and navigate to \"My leaves\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 36
+#line 39
     testRunner.And("Get the initial \'annual\' leave count", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 37
+#line 40
     testRunner.And("Click Request New Leave and open the leave request form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 38
+#line 41
     testRunner.When("Select leave type: Annual leave", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 39
+#line 42
     testRunner.And("Pick start date as Today+1 and end date as Today+12", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 40
+#line 43
     testRunner.Then("Verify the error message: \'Absence period overlaps with Vacation leave\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

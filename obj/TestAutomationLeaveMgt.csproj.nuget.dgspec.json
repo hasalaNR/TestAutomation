@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ThinkpadT15\\Documents\\Mer\\Answers-Hasala\\UI\\TestAutomationLeaveMgt\\TestAutomationLeaveMgt.csproj": {}
+    "C:\\Users\\ThinkpadT15\\Videos\\FINAL UI\\TestAutomation\\TestAutomationLeaveMgt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ThinkpadT15\\Documents\\Mer\\Answers-Hasala\\UI\\TestAutomationLeaveMgt\\TestAutomationLeaveMgt.csproj": {
+    "C:\\Users\\ThinkpadT15\\Videos\\FINAL UI\\TestAutomation\\TestAutomationLeaveMgt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ThinkpadT15\\Documents\\Mer\\Answers-Hasala\\UI\\TestAutomationLeaveMgt\\TestAutomationLeaveMgt.csproj",
+        "projectUniqueName": "C:\\Users\\ThinkpadT15\\Videos\\FINAL UI\\TestAutomation\\TestAutomationLeaveMgt.csproj",
         "projectName": "TestAutomationLeaveMgt",
-        "projectPath": "C:\\Users\\ThinkpadT15\\Documents\\Mer\\Answers-Hasala\\UI\\TestAutomationLeaveMgt\\TestAutomationLeaveMgt.csproj",
+        "projectPath": "C:\\Users\\ThinkpadT15\\Videos\\FINAL UI\\TestAutomation\\TestAutomationLeaveMgt.csproj",
         "packagesPath": "C:\\Users\\ThinkpadT15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ThinkpadT15\\Documents\\Mer\\Answers-Hasala\\UI\\TestAutomationLeaveMgt\\obj\\",
+        "outputPath": "C:\\Users\\ThinkpadT15\\Videos\\FINAL UI\\TestAutomation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

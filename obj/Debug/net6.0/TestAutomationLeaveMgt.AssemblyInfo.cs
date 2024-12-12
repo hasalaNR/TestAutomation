@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestAutomationLeaveMgt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1729cbe48f69bd3dfec06977e29f8a8cf036f8f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b15a0161686933b166dbe02bdec2803809e6917")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestAutomationLeaveMgt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestAutomationLeaveMgt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
