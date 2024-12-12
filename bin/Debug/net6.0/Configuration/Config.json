@@ -1,0 +1,8 @@
+//Replace with correct username password and url
+{
+    "system_url": "URL",
+    "manager_username": "Username_manager",
+    "manager_password": "password",
+    "employee_username": "username_emp",
+    "employee_password": "password"
+}
